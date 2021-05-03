@@ -1,27 +1,25 @@
-# Thinkbridge
+Backend Execution
+Step 1: You need to install json server .
+npm install -g json-server
+step 2:start new command prompt and start json server
+json-server --watch db.json
+step 3:start the server
+http://localhost:3000/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+Frontend Execution
+Step 1: Open the source code folder in vs code.
+Step 2:install npm 
+npm install @angular/cli
+step 3:Build application by following command
+ng serve
+step 4:start server
+http://localhost:4200
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Execution flow:
+1)	Inventory list is given on home page. If you want to add a inventory item simply click on
+Add Item button.
+2)	Add Item like name,description and price.
+3)	In the last column of operation you can perform edit and delete operation.
+4)	According to operations you are performing will get reflected into the Inventory list.as well as you can check it on db file.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
