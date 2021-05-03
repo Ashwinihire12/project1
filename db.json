@@ -1,0 +1,94 @@
+{
+  "Inventory": [
+    {
+      "name": "TV",
+      "description": "Samsung",
+      "price": 70000,
+      "id": 1
+    },
+    {
+      "name": "Washing Machine",
+      "description": "Samsung",
+      "price": 90000,
+      "id": 2
+    },
+    {
+      "name": "Fridge",
+      "description": "LG",
+      "price": 80000,
+      "id": 3
+    },
+    {
+      "name": "Microwave",
+      "description":"LG",
+      "price": 10000,
+      "id": 4
+    },
+    {
+      "name": "Macbook",
+      "description": "Apple",
+      "price": 150000,
+      "id": 5
+    },
+    {
+      "name": "Cables",
+      "description": "MI",
+      "price": 700,
+      "id": 6
+    },
+    {
+      "name": "IPAD",
+      "description": "Samsung",
+      "price": 50000,
+      "id": 7
+    },
+    {
+      "name": "Keyboard",
+      "description": "HP",
+      "price": "40000",
+      "id": 8
+    },
+    {
+      "name": "Mouse",
+      "description": "HP",
+      "price": 750,
+      "id": 9
+    },
+    {
+      "name": "Laptop",
+      "description": "Lenovo",
+      "price": 80000,
+      "id": 10
+    },
+    {
+      "name": "Printer",
+      "description": "Philips",
+      "price": 7000,
+      "id": 11
+    },
+    {
+      "name": "Powerbank",
+      "description": "MI",
+      "price": 2500,
+      "id": 12
+    },
+    {
+      "name": "Pendrive",
+      "description": "HP",
+      "price": 700,
+      "id": 13
+    },
+    {
+      "name": "Mobile",
+      "description": "Samsung",
+      "price": 9999,
+      "id": 14
+    },
+    {
+      "name": "Earphones",
+      "description": "Boat",
+      "price": 1500,
+      "id": 15
+    }
+  ]
+}

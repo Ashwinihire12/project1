@@ -1,0 +1,25 @@
+<h2>Add New Inventory Item</h2>
+<br>
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Success!</strong> Your Data has been Added Successfully!
+  <button (click)="closeAlert()"type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<form [formGroup]="addInventory" (ngSubmit)="collectInventory()">
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" class="form-control" placeholder="Enter name" formControlName="name">
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input type="text" class="form-control" placeholder="Enter Description" formControlName="description">
+    </div>
+    <div class="form-group">
+        <label>Price</label>
+        <input type="string" class="form-control" placeholder="Enter Price" formControlName="price">
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
